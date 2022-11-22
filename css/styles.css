@@ -249,19 +249,19 @@ header {
 
 /* ===special=== */
 
-.special-list {
+.special__list {
     display: flex;
 }
 
-.special-item {
+.special__item {
     flex-basis: calc((100% - 3*30px)/4);
 }
 
-.special-item:not(:last-child) {
+.special__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.special-icon-container {
+.special__icon-container {
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -272,7 +272,7 @@ header {
     margin-bottom: 30px;
 }
 
-.special-title {
+.special__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -282,7 +282,7 @@ header {
     margin-bottom: 10px;
 }
 
-.special-desc {
+.special__desc {
     letter-spacing: 0.03em;
     color: var(--gray-text-color);
 }
