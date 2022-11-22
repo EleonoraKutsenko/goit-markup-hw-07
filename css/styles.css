@@ -436,7 +436,7 @@ footer .container div:nth-of-type(1) {
     margin-right: 70px;
 }
 
-.footer-logo {
+.footer__logo {
     display: inline-block;
     margin-bottom: 20px;
 }
@@ -445,11 +445,11 @@ footer .container div:nth-of-type(1) {
     color: var(--white-color);
 }
 
-.footer-list-item:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-address, .footer-contact {
+.footer__address, .footer__contact {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -457,11 +457,11 @@ footer .container div:nth-of-type(1) {
     color: var(--white-color);    
 }
 
-.footer-contact {
+.footer__contact {
     color: var(--footer-gray-color);
 }
 
-.footer-social-title {
+.social__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -471,21 +471,21 @@ footer .container div:nth-of-type(1) {
     margin-bottom: 20px;
 }
 
-.footer-social-list {
+footer .social__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 206px;
 }
 
-.footer-social-item .social-link {
+footer .social__item .social__link {
     fill: var(--white-color);
     background-color: var(--icon-dark-gray-color);
     transition: background-color 250ms var(--timing-cubic);
 }
 
-.footer-social-item .social-link:hover,
-.footer-social-item .social-link:focus {
+footer .social__item .social__link:hover,
+footer .social__item .social__link:focus {
     background-color: var(--accent-color);
 }
 
@@ -493,7 +493,7 @@ footer .container div:nth-of-type(2) {
     margin-right: auto;
 }
 
-.subscribe-message {
+.subscribe__message {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -503,12 +503,12 @@ footer .container div:nth-of-type(2) {
     margin-bottom: 20px;
 }
 
-.subscribe-form {
+.subscribe__form {
     display: flex;
     gap: 12px;
 }
 
-.subscribe-input {
+.subscribe__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -520,21 +520,21 @@ footer .container div:nth-of-type(2) {
     transition: border-color 250ms var(--timing-cubic);
 }
 
-.subscribe-input::placeholder {
+.subscribe__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     border-color: var(--footer-gray-color);
 }
 
-.subscribe-input:hover,
-.subscribe-input:focus {
+.subscribe__input:hover,
+.subscribe__input:focus {
     outline: none;
     border-color: var(--accent-color);
     cursor: pointer;
 }
 
-.subscribe-btn {
+.subscribe__btn {
     width: 200px;
     height: 50px;
     display: flex;
@@ -548,13 +548,13 @@ footer .container div:nth-of-type(2) {
     transition: background-color 250ms var(--timing-cubic);
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
+.subscribe__btn:hover,
+.subscribe__btn:focus {
     background-color: var(--accent-btn-color);
     cursor: pointer;
 }
 
-.subscribe-btn-txt {
+.subscribe__text {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
