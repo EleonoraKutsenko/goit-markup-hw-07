@@ -62,7 +62,7 @@ h1, h2, h3, h4, p {
     clip: rect(0 0 0 0);
 }
 
-.section-title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -293,20 +293,20 @@ header {
     padding-top: 0;
 }
 
-.feature-list {
+.feature__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.feature-item {
+.feature__item {
     display: block;
 }
 
-.feature-item:not(:last-child) {
+.feature__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.feature-link {
+.feature__link {
     position: relative;
     width: 370px;
     height: 294px;
@@ -314,13 +314,13 @@ header {
     display: block;
 }
 
-.feature-img {
+.feature__img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.feature-desc {
+.feature__desc {
     position: absolute;
     bottom: 0;
     width: 100%;
