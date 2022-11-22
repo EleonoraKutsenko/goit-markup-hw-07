@@ -357,7 +357,7 @@ header {
 .team__card {
     flex-basis: calc((100% - 90px)/4);
     background-color: var(--white-color);
-    box-shadow: var(--card-shadow)
+    box-shadow: var(--card-shadow);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -601,7 +601,7 @@ footer .container div:nth-of-type(2) {
     height: 580px;
     padding: 40px;
     background-color: var(--white-color);
-    box-shadow: var(--card-shadow)
+    box-shadow: var(--card-shadow);
     border-radius: 4px;
 }
 
