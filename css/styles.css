@@ -603,7 +603,7 @@ footer .container div:nth-of-type(2) {
     border-radius: 4px;
 }
 
-.modal-close-btn {
+.modal__btn--close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -621,13 +621,13 @@ footer .container div:nth-of-type(2) {
     transition: fill 250ms var(--timing-cubic);
 }
 
-.modal-close-btn:hover, .modal-close-btn:focus {
+.modal__btn--close:hover, .modal__btn--close:focus {
     fill: var(--accent-color);
 }
 
 /* ===modal-form=== */
 
-.contact-form-message {
+.contact-form__message {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -637,12 +637,12 @@ footer .container div:nth-of-type(2) {
     margin-bottom: 12px;
 }
 
-.contact-form-field {
+.contact-form__field {
     display: block;
     margin-bottom: 10px;
 }
 
-.contact-form-field-title {
+.contact-form__title {
     display: block;
     font-size: 12px;
     line-height: 1.16;
@@ -650,13 +650,13 @@ footer .container div:nth-of-type(2) {
     color: var(--gray-text-color);
 }
 
-.contact-form-input-wrapper {
+.contact-form__wrapper {
     position: relative;
     display: block;
     margin-top: 4px;
 }
 
-.contact-form-input {
+.contact-form__input {
     width: 100%;
     height: 40px;
     padding-left: 42px;
@@ -665,7 +665,7 @@ footer .container div:nth-of-type(2) {
     transition: border-color 250ms var(--timing-cubic);
 }
 
-.contact-form-icon {
+.contact-form__icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -679,23 +679,23 @@ footer .container div:nth-of-type(2) {
     transition: fill 250ms var(--timing-cubic);
 }
 
-.contact-form-icon:hover {
+.contact-form__icon:hover {
     fill: var(--accent-color);
     cursor: pointer;
 }
 
-.contact-form-input:hover, .contact-form-input:focus {
+.contact-form__input:hover, .contact-form__input:focus {
     outline: none;
     border-color: var(--accent-color);
     cursor: pointer;
 }
 
-.contact-form-input:hover + .contact-form-icon, 
-.contact-form-input:focus + .contact-form-icon {
+.contact-form__input:hover + .contact-form__icon, 
+.contact-form__input:focus + .contact-form__icon {
     fill: var(--accent-color);
 }
 
-.contact-form-comment {
+.contact-form__comment {
     width: 100%;
     height: 120px;
     resize: none;
@@ -706,28 +706,28 @@ footer .container div:nth-of-type(2) {
     transition: border-color 250ms var(--timing-cubic);
 }
 
-.contact-form-comment:hover, .contact-form-comment:focus {
+.contact-form__comment:hover, .contact-form__comment:focus {
     outline: none;
     border-color: var(--accent-color);
     cursor: pointer;
 }
 
-.contact-form-comment::placeholder {
+.contact-form__comment::placeholder {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: var(--form-placeholder-color);
 }
 
-.contact-form-link {
+.contact-form__link {
     color: var(--accent-color);
 }
 
-.contact-form-policy {
+.contact-form__policy {
     margin-bottom: 30px;
 }
 
-.contact-form-policy-checkbox:checked + .contact-form-policy-label::before {
+.contact-form__checkbox:checked + .contact-form__label::before {
     background-color: var(--accent-color);
     background-image: url(../images/icons/checked.svg);
     background-size: contain;
@@ -736,12 +736,12 @@ footer .container div:nth-of-type(2) {
     border-color: var(--accent-color);
 }
 
-.contact-form-policy-checkbox:focus + .contact-form-policy-label::before {
+.contact-form__checkbox:focus + .contact-form__label::before {
     outline: 1px solid var(--accent-color);
     border-color: var(--accent-color);
 }
 
-.contact-form-policy-label {
+.contact-form__label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -751,7 +751,7 @@ footer .container div:nth-of-type(2) {
     color: var(--gray-text-color);
 }
 
-.contact-form-policy-label::before {
+.contact-form__label::before {
     content: "";
     display: inline-block;
     width: 16px;
@@ -762,7 +762,7 @@ footer .container div:nth-of-type(2) {
     margin-right: 8px;
 }
 
-.contact-form-btn-submit {
+.contact-form__btn--submit {
     display: block;
     margin: 0 auto;
     font-family: inherit;
@@ -781,8 +781,8 @@ footer .container div:nth-of-type(2) {
     transition: background-color 250ms var(--timing-cubic);
 }
 
-.contact-form-btn-submit:hover,
-.contact-form-btn-submit:focus {
+.contact-form__btn--submit:hover,
+.contact-form__btn--submit:focus {
     background-color: var(--accent-btn-color);
     cursor: pointer;
 }
