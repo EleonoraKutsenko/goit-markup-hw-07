@@ -1,0 +1,26 @@
+.social__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icon-gray-color);
+    transition: background-color 250ms var(--timing-cubic);
+}
+
+.social__link:hover,
+.social__link:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+}
+
+.social__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
