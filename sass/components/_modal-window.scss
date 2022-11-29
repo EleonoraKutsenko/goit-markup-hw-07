@@ -2,12 +2,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 528px;
     height: 580px;
     padding: 40px;
     background-color: var(--white-color);
-    box-shadow: var(--card-shadow);
+    -webkit-box-shadow: var(--card-shadow);
+            box-shadow: var(--card-shadow);
     border-radius: 4px;
 }
 
@@ -15,9 +18,15 @@
     position: absolute;
     top: 8px;
     right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -26,6 +35,8 @@
     padding: 0;
     cursor: pointer;
     fill: var(--black-text-color);
+    -webkit-transition: fill 250ms var(--timing-cubic);
+    -o-transition: fill 250ms var(--timing-cubic);
     transition: fill 250ms var(--timing-cubic);
 }
 

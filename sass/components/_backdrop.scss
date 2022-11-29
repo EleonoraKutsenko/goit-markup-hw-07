@@ -5,6 +5,8 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--backdrop-color);
+    -webkit-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
+    -o-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
     transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
 }
 

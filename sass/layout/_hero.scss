@@ -5,6 +5,14 @@
     padding: 200px 0;
     margin-left: auto;
     margin-right: auto;
+    background-image: -webkit-gradient(linear,
+    left top, left bottom,
+    from(var(--overlay-color)),
+    to(var(--overlay-color))),
+    url(../images/hero/hero.jpg);
+    background-image: -o-linear-gradient(var(--overlay-color),
+    var(--overlay-color)),
+    url(../images/hero/hero.jpg);
     background-image: linear-gradient(var(--overlay-color),
     var(--overlay-color)),
     url(../images/hero/hero.jpg);
@@ -35,7 +43,10 @@
     padding: 10px 32px;
     border-color: transparent;
     border-radius: 4px;
-    box-shadow: var(--btn-shadow);
+    -webkit-box-shadow: var(--btn-shadow);
+            box-shadow: var(--btn-shadow);
+    -webkit-transition: background-color 250ms var(--timing-cubic);
+    -o-transition: background-color 250ms var(--timing-cubic);
     transition: background-color 250ms var(--timing-cubic);
 }
 

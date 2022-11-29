@@ -18,10 +18,10 @@ p {
 
 .link {
     text-decoration: none;
-}
 
-.link:visited {
-    text-decoration: none;
+    &:visited {
+        text-decoration: none;
+    }
 }
 
 .list {
