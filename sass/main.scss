@@ -8,6 +8,9 @@
 @import './components/social-link';
 @import './components/logo-link';
 @import './components/subscribe';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
 
 @import './layout/header';
 @import './layout/hero';
@@ -16,4 +19,5 @@
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
-
+@import './layout/filter-list';
+@import './layout/portfolio-list';
