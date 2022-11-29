@@ -28,48 +28,48 @@
   -webkit-transition: border-color 250ms var(--timing-cubic);
   -o-transition: border-color 250ms var(--timing-cubic);
   transition: border-color 250ms var(--timing-cubic);
-}
 
-.subscribe__input::-webkit-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: .03em;
-  border-color: var(--footer-gray-color);
-}
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    border-color: var(--footer-gray-color);
+  }
 
-.subscribe__input::-moz-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: .03em;
-  border-color: var(--footer-gray-color);
-}
+  &::-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    border-color: var(--footer-gray-color);
+  }
+  
+  &:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    border-color: var(--footer-gray-color);
+  }
+  
+  &::-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    border-color: var(--footer-gray-color);
+  }
+  
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    border-color: var(--footer-gray-color);
+  }
 
-.subscribe__input:-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: .03em;
-  border-color: var(--footer-gray-color);
-}
-
-.subscribe__input::-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: .03em;
-  border-color: var(--footer-gray-color);
-}
-
-.subscribe__input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: .03em;
-  border-color: var(--footer-gray-color);
-}
-
-.subscribe__input:hover,
-.subscribe__input:focus {
-  outline: none;
-  border-color: var(--accent-color);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    cursor: pointer;
+  }
 }
 
 .subscribe__btn {
@@ -83,7 +83,7 @@
       align-items: center;
   gap: 10px;
   padding: 10px 28px;
-  background-color: var(--accent-color);
+    background-color: var(--accent-color);
   border-color: transparent;
   border-radius: 4px;
   -webkit-box-shadow: var(--btn-shadow);
@@ -91,12 +91,12 @@
   -webkit-transition: background-color 250ms var(--timing-cubic);
   -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
-}
 
-.subscribe__btn:hover,
-.subscribe__btn:focus {
-  background-color: var(--accent-btn-color);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-btn-color);
+    cursor: pointer;
+  }
 }
 
 .subscribe__text {

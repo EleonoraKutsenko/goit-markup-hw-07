@@ -38,9 +38,9 @@
   -webkit-transition: fill 250ms var(--timing-cubic);
   -o-transition: fill 250ms var(--timing-cubic);
   transition: fill 250ms var(--timing-cubic);
-}
 
-.modal__btn--close:hover,
-.modal__btn--close:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }

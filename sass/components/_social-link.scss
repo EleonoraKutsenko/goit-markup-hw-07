@@ -15,12 +15,12 @@
   -webkit-transition: background-color 250ms var(--timing-cubic);
   -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
-}
 
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+  }
 }
 
 .social__title {
