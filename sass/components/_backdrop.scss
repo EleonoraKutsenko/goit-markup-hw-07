@@ -1,17 +1,17 @@
 .backdrop {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--backdrop-color);
-    -webkit-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
-    -o-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
-    transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backdrop-color);
+  -webkit-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
+  -o-transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
+  transition: opacity 250ms var(--timing-cubic), visibility 250ms var(--timing-cubic);
 }
 
 .backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }

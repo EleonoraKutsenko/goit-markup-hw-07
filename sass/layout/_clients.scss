@@ -1,45 +1,45 @@
 .clients__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+      justify-content: space-between;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
 }
 
 .clients__item:not(:last-child) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .clients__link {
-    fill: var(--icon-gray-color);
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--icon-gray-color);
-    border-radius: 4px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: fill 250ms var(--timing-cubic), 
-    border-color 250ms var(--timing-cubic);
-    -o-transition: fill 250ms var(--timing-cubic), 
-    border-color 250ms var(--timing-cubic);
-    transition: fill 250ms var(--timing-cubic), 
-    border-color 250ms var(--timing-cubic);
+  width: 170px;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  fill: var(--icon-gray-color);
+  border: 1px solid var(--icon-gray-color);
+  border-radius: 4px;
+  -webkit-transition: fill 250ms var(--timing-cubic), 
+  border-color 250ms var(--timing-cubic);
+  -o-transition: fill 250ms var(--timing-cubic), 
+  border-color 250ms var(--timing-cubic);
+  transition: fill 250ms var(--timing-cubic), 
+  border-color 250ms var(--timing-cubic);
 }
 
 .clients__link:hover, .clients__link:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }

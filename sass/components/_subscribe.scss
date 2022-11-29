@@ -1,124 +1,124 @@
 .subscribe__message {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
 .subscribe__form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
 }
 
 .subscribe__input {
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    -webkit-box-shadow: var(--btn-shadow);
-            box-shadow: var(--btn-shadow);
-    border-radius: 4px;
-    padding-left: 16px;
-    background-color: transparent;
-    color: var(--white-color);
-    -webkit-transition: border-color 250ms var(--timing-cubic);
-    -o-transition: border-color 250ms var(--timing-cubic);
-    transition: border-color 250ms var(--timing-cubic);
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  color: var(--white-color);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, .3);
+  -webkit-box-shadow: var(--btn-shadow);
+      box-shadow: var(--btn-shadow);
+  border-radius: 4px;
+  -webkit-transition: border-color 250ms var(--timing-cubic);
+  -o-transition: border-color 250ms var(--timing-cubic);
+  transition: border-color 250ms var(--timing-cubic);
 }
 
 .subscribe__input::-webkit-input-placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    border-color: var(--footer-gray-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  border-color: var(--footer-gray-color);
 }
 
 .subscribe__input::-moz-placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    border-color: var(--footer-gray-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  border-color: var(--footer-gray-color);
 }
 
 .subscribe__input:-ms-input-placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    border-color: var(--footer-gray-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  border-color: var(--footer-gray-color);
 }
 
 .subscribe__input::-ms-input-placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    border-color: var(--footer-gray-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  border-color: var(--footer-gray-color);
 }
 
 .subscribe__input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    border-color: var(--footer-gray-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  border-color: var(--footer-gray-color);
 }
 
 .subscribe__input:hover,
 .subscribe__input:focus {
-    outline: none;
-    border-color: var(--accent-color);
-    cursor: pointer;
+  outline: none;
+  border-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .subscribe__btn {
-    width: 200px;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 10px;
-    background-color: var(--accent-color);
-    padding: 10px 28px;
-    border-color: transparent;
-    border-radius: 4px;
-    -webkit-box-shadow: var(--btn-shadow);
-            box-shadow: var(--btn-shadow);
-    -webkit-transition: background-color 250ms var(--timing-cubic);
-    -o-transition: background-color 250ms var(--timing-cubic);
-    transition: background-color 250ms var(--timing-cubic);
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  gap: 10px;
+  padding: 10px 28px;
+  background-color: var(--accent-color);
+  border-color: transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: var(--btn-shadow);
+      box-shadow: var(--btn-shadow);
+  -webkit-transition: background-color 250ms var(--timing-cubic);
+  -o-transition: background-color 250ms var(--timing-cubic);
+  transition: background-color 250ms var(--timing-cubic);
 }
 
 .subscribe__btn:hover,
 .subscribe__btn:focus {
-    background-color: var(--accent-btn-color);
-    cursor: pointer;
+  background-color: var(--accent-btn-color);
+  cursor: pointer;
 }
 
 .subscribe__text {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .06em;
+  color: var(--white-color);
 }
 
 .icon-send {
-    width: 24px;
-    height: 24px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    fill: var(--white-color);
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  fill: var(--white-color);
 }

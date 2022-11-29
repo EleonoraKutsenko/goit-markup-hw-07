@@ -1,94 +1,94 @@
 .portfolio__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .portfolio__card {
-    display: inline-block;
-    background-color: var(--white-color);
-    -ms-flex-preferred-size: calc((100% - 60px)/3);
-        flex-basis: calc((100% - 60px)/3);
+  display: inline-block;
+  background-color: var(--white-color);
+  -ms-flex-preferred-size: calc((100% - 60px)/3);
+    flex-basis: calc((100% - 60px)/3);
 }
 
 .portfolio__card:not(:nth-child(3n)) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .portfolio__card:not(:nth-last-child(-n+3)) {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio__link {
-    display: inline-block;
-    -webkit-transition: -webkit-box-shadow 250ms var(--timing-cubic);
-    transition: -webkit-box-shadow 250ms var(--timing-cubic);
-    -o-transition: box-shadow 250ms var(--timing-cubic);
-    transition: box-shadow 250ms var(--timing-cubic);
-    transition: box-shadow 250ms var(--timing-cubic), -webkit-box-shadow 250ms var(--timing-cubic);
+  display: inline-block;
+  -webkit-transition: -webkit-box-shadow 250ms var(--timing-cubic);
+  transition: -webkit-box-shadow 250ms var(--timing-cubic);
+  -o-transition: box-shadow 250ms var(--timing-cubic);
+  transition: box-shadow 250ms var(--timing-cubic);
+  transition: box-shadow 250ms var(--timing-cubic), -webkit-box-shadow 250ms var(--timing-cubic);
 }
 
 .portfolio__link:hover,
 .portfolio__link:focus {
-    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .12), 0px 4px 4px rgba(0, 0, 0, .06), 1px 4px 6px rgba(0, 0, 0, .16);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, .12), 0px 4px 4px rgba(0, 0, 0, .06), 1px 4px 6px rgba(0, 0, 0, .16);
 }
 
 .portfolio__wrapper {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--portfolio-overlay-color);
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
-    margin: 0;
-    padding: 63px 24px;
-    -webkit-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-            transform: translateY(100%);
-    -webkit-transition: -webkit-transform 250ms var(--timing-cubic);
-    transition: -webkit-transform 250ms var(--timing-cubic);
-    -o-transition: transform 250ms var(--timing-cubic);
-    transition: transform 250ms var(--timing-cubic);
-    transition: transform 250ms var(--timing-cubic), -webkit-transform 250ms var(--timing-cubic);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: .03em;
+  color: var(--white-color);
+  background-color: var(--portfolio-overlay-color);
+  -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+      transform: translateY(100%);
+  -webkit-transition: -webkit-transform 250ms var(--timing-cubic);
+  transition: -webkit-transform 250ms var(--timing-cubic);
+  -o-transition: transform 250ms var(--timing-cubic);
+  transition: transform 250ms var(--timing-cubic);
+  transition: transform 250ms var(--timing-cubic), -webkit-transform 250ms var(--timing-cubic);
 }
 
 .portfolio__card:hover .portfolio__overlay {
-    -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+  -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+      transform: translateY(0);
 }
 
 .portfolio__text {
-    padding: 20px 24px;
-    border-right: 1px solid var(--white-border);
-    border-left: 1px solid var(--white-border);
-    border-bottom: 1px solid var(--white-border);
+  padding: 20px 24px;
+  border-right: 1px solid var(--white-border);
+  border-left: 1px solid var(--white-border);
+  border-bottom: 1px solid var(--white-border);
 }
 
 .portfolio__title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--dark-text-color);
-    margin-bottom: 4px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: .06em;
+  color: var(--dark-text-color);
 }
 
 .portfolio__desc {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--gray-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .03em;
+  color: var(--gray-text-color);
 }
