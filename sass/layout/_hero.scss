@@ -48,10 +48,10 @@
   -webkit-transition: background-color 250ms var(--timing-cubic);
   -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
-}
 
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: var(--accent-btn-color);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-btn-color);
+    cursor: pointer;
+  }
 }

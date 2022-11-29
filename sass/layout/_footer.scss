@@ -1,19 +1,36 @@
 footer {
   padding: 60px 0;
   background-color: var(--dark-bgcolor);
-}
 
-footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
+  & .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
     -ms-flex-align: baseline;
-      align-items: baseline;
-}
+    align-items: baseline;
 
-footer .container div:nth-of-type(1) {
-  margin-right: 70px;
+    & div:nth-of-type(1) {
+      margin-right: 70px;
+    }
+
+    & div:nth-of-type(2) {
+      margin-right: auto;
+    }
+  }
+
+  & .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 206px;
+  }
 }
 
 .footer__logo {
@@ -29,30 +46,21 @@ footer .container div:nth-of-type(1) {
   margin-bottom: 9px;
 }
 
-.footer__address,
-.footer__contact {
+%footer__data {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: .03em;
+}
+
+.footer__address {
+  @extend %footer__data;
   color: var(--white-color);
 }
 
 .footer__contact {
+  @extend %footer__data;
   color: var(--footer-gray-color);
-}
-
-footer .social__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-      justify-content: space-between;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
-  min-width: 206px;
 }
 
 footer .social__item .social__link {
@@ -61,13 +69,9 @@ footer .social__item .social__link {
   -webkit-transition: background-color 250ms var(--timing-cubic);
   -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
-}
 
-footer .social__item .social__link:hover,
-footer .social__item .social__link:focus {
-  background-color: var(--accent-color);
-}
-
-footer .container div:nth-of-type(2) {
-  margin-right: auto;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }

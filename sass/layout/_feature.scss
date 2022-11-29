@@ -12,10 +12,10 @@
 
 .feature__item {
   display: block;
-}
 
-.feature__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .feature__link {

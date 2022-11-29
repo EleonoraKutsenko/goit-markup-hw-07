@@ -19,10 +19,10 @@
   -webkit-box-shadow: var(--card-shadow);
       box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
-}
 
-.team__card:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .team__text {

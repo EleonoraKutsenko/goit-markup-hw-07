@@ -37,9 +37,10 @@
   border-color 250ms var(--timing-cubic);
   transition: fill 250ms var(--timing-cubic), 
   border-color 250ms var(--timing-cubic);
-}
 
-.clients__link:hover, .clients__link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }

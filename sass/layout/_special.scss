@@ -7,11 +7,12 @@
 .special__item {
   -ms-flex-preferred-size: calc((100% - 3*30px)/4);
     flex-basis: calc((100% - 3*30px)/4);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.special__item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .special__icon-container {
   width: 270px;
