@@ -1,4 +1,6 @@
 :root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
   --white-color: #ffffff;
   --accent-color: #2196f3;
   --gray-bgcolor: #f5f4fa;
@@ -35,7 +37,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -115,7 +117,7 @@ img {
 
 .logo__link {
   margin-right: 93px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
