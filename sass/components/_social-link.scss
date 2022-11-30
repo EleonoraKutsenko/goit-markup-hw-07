@@ -1,19 +1,11 @@
 .social__link {
   width: 44px;
   height: 44px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-    -ms-flex-pack: center;
-      justify-content: center;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   fill: var(--icon-gray-color);
-  -webkit-transition: background-color 250ms var(--timing-cubic);
-  -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
 
   &:hover,

@@ -3,11 +3,7 @@ footer {
   background-color: var(--dark-bgcolor);
 
   & .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
     align-items: baseline;
 
     & div:nth-of-type(1) {
@@ -20,14 +16,8 @@ footer {
   }
 
   & .social__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     min-width: 206px;
   }
@@ -66,8 +56,6 @@ footer {
 footer .social__item .social__link {
   fill: var(--white-color);
   background-color: var(--icon-dark-gray-color);
-  -webkit-transition: background-color 250ms var(--timing-cubic);
-  -o-transition: background-color 250ms var(--timing-cubic);
   transition: background-color 250ms var(--timing-cubic);
 
   &:hover,

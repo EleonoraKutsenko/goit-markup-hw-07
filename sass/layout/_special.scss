@@ -1,12 +1,9 @@
 .special__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .special__item {
-  -ms-flex-preferred-size: calc((100% - 3*30px)/4);
-    flex-basis: calc((100% - 3*30px)/4);
+  flex-basis: calc((100% - 3*30px)/4);
 
   &:not(:last-child) {
     margin-right: 30px;
@@ -17,15 +14,9 @@
 .special__icon-container {
   width: 270px;
   height: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-    -ms-flex-pack: center;
-      justify-content: center;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background-color: var(--gray-bgcolor);
   border-radius: 4px;
